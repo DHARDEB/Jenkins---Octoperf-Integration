@@ -4,21 +4,21 @@ What is Octoperf?
 
 Octoperf is like Blazemeter which offers test environment where you can upload jmx files & design performance scenarios & execute/analyze test results. 
 
-Idea: To schedule tests using Jenkins so that the daily scheduled tests can be automatically triggered every day, removing the process of manually running it from Octoperf.
+**Idea**: To schedule tests using Jenkins so that the daily scheduled tests can be automatically triggered every day, removing the process of manually running it from Octoperf.
 
-Problem Statement: Everyday, PE team needs to manually run two token creation test from Octoperf .
+**Problem Statement**: Everyday, PE team needs to manually run two token creation test from Octoperf .
 
-Implementation Status: Implemented for automatically running Token creation test every day at 11:05 AM IST.
+**Implementation Status**: Implemented for automatically running Token creation test every day at 11:05 AM IST.
 
 **Steps to be followed:**
 
-Preconditions:
+**Preconditions**:
 
 1.	Configure & create a Jenkins account.
 
 2.	Install the Jenkins-Octoperf Plugin & update Jenkins if required. From here : https://wiki.jenkins-ci.org/display/JENKINS/OctoPerf+Plugin
 
-Steps:
+**Steps**:
 
 1.	In the manage credentials section of Jenkins, sign in with your Octoperf Credentials.
 
